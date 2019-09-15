@@ -1,0 +1,33 @@
+{
+  "name": "django_react_assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./django_react_assessment/frontend/src/index.js --output ./django_react_assessment/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./django_react_assessment/frontend/src/index.js --output ./django_react_assessment/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xangcastle/django_react_assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xangcastle/django_react_assessment/issues"
+  },
+  "homepage": "https://github.com/xangcastle/django_react_assessment#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
